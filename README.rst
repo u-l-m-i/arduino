@@ -76,6 +76,21 @@ Archlinux packages
 * community/avr-libc
 
 
+Mac OS X Homebrew packages
+--------------------------
+::
+
+    # GNU AVR Toolchain as formulae for Homebrew
+    # https://github.com/osx-cross/homebrew-avr
+    brew tap osx-cross/avr
+    brew install avr-gcc
+
+::
+
+    # The Arduino HAL
+    brew cask install arduino
+
+
 *******
 Operate
 *******
@@ -107,4 +122,28 @@ finally start a serial port monitor, do::
 
     # Run serial port monitor
     make monitor
+
+
+*******
+License
+*******
+
+
+Software
+========
+All source codes are licensed under the GNU General Public License, see also "LICENSE.txt".
+
+
+Hardware
+========
+All hardware designs and related things are licensed under the `CERN Open Hardware Licence v1.2`_.
+
+.. _CERN Open Hardware Licence v1.2: http://www.ohwr.org/licenses/cern-ohl/v1.2
+
+
+Documentation
+=============
+Licensed under the Creative Commons `CC-BY-SA 4.0 license`_.
+
+.. _CC-BY-SA 4.0 license: https://creativecommons.org/licenses/by-sa/4.0/
 
